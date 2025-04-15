@@ -1,9 +1,9 @@
 ## [REST API](http://localhost:8080/doc)
 
-## Концепция:
+## Концепція:
 
 - Spring Modulith
-    - [Spring Modulith: достигли ли мы зрелости модульности](https://habr.com/ru/post/701984/)
+    - [Spring Modulith: чи досягли ми зрілості модульності](https://habr.com/ua/post/701984/)
     - [Introducing Spring Modulith](https://spring.io/blog/2022/10/21/introducing-spring-modulith)
     - [Spring Modulith - Reference documentation](https://docs.spring.io/spring-modulith/docs/current-SNAPSHOT/reference/html/)
 
@@ -13,18 +13,20 @@
   password: JiraRush
 ```
 
-- Есть 2 общие таблицы, на которых не fk
-    - _Reference_ - справочник. Связь делаем по _code_ (по id нельзя, тк id привязано к окружению-конкретной базе)
-    - _UserBelong_ - привязка юзеров с типом (owner, lead, ...) к объекту (таска, проект, спринт, ...). FK вручную будем
-      проверять
+- Є 2 загальні таблиці, на яких не fk
+    - _Reference_ - довідник.
+    - _UserBelong_ - прив'язка користувачів з типом (owner, lead, ...) до об'єкта (тяга, проект, спринт, ...).
+      перевіряти
 
 ## Аналоги
 
 - https://java-source.net/open-source/issue-trackers
 
-## Тестирование
+## Тестування
 
-- https://habr.com/ru/articles/259055/
+- https://habr.com/ua/articles/259055/
 
-Список выполненных задач:
+Список виконаних завдань:
+1. Видалити соціальні мережі: vk, yandex.
+
 ...
